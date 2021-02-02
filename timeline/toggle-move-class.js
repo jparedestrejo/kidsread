@@ -1,4 +1,4 @@
-var move = document.getElementsById('move');
+var move = document.getElementById('move');
 move.addEventListener('click', function(e) {
  var objs = document.body.querySelectorAll('div');
  Array.prototype.map.call(objs, function(o){
